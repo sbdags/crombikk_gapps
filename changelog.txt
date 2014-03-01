@@ -1,0 +1,16 @@
+Changelog
+crombi_kkgapps_20140301
+Updated updater-script
+Updated Google Plus to version
+Updated Google Core Services and lib files to version
+Updated Google Experience Launcher to version
+ 
+crombi_kkgapps_20140223
+Updated Gmail2 to version
+Updated Hangouts and lib files to version
+Updated Google Maps to version
+Updated YouTube to version
+Updated Google Now and lib files to version
+Updated Play Store to version
+Removed Google Calendar as already provided in CMB rom
+
