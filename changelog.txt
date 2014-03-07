@@ -1,4 +1,7 @@
 Changelog
+crombi_kkgapps_20140306
+Removed calendarprovider.apk from gapps as conflicted with calendar app in rom
+
 crombi_kkgapps_20140301
 Updated updater-script
 Updated Google Plus to version 4.3.0.62241793
