@@ -1,9 +1,12 @@
-crombi_kkgapps_20140301
+crombi_kkgapps_20140308
 =======================
 
 CROMBi-X Google Apps Package
 
 Changelog
+crombi_kkgapps_20140308
+If Gapps is flashed after CROMBi-kk it should now in ROM2SD mode - no ROM2SD1.zip required
+Updated Google TTS to version 3.0.10.1047791
 
 crombi_kkgapps_20140306
 Removed calendarprovider.apk from gapps as conflicted with calendar app in rom
