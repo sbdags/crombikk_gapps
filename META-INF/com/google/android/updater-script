@@ -12,13 +12,13 @@ ui_print(" ");
 ui_print(" ");
 sleep(3);
 
-if
-    file_getprop("/tmp/type.prop","TYPE") == "ROM2SD"
-then
-	ui_print("==**********************==");
-	ui_print("==*ROM2SD MODE DETECTED*==");
-	ui_print("==**********************==");
-endif;
+#if
+#    file_getprop("/tmp/type.prop","TYPE") == "ROM2SD"
+#then
+#	ui_print("==**********************==");
+#	ui_print("==*ROM2SD MODE DETECTED*==");
+#	ui_print("==**********************==");
+#endif;
 ui_print(" ");
 ui_print("Mounting your system like a horse...");
 run_program("/sbin/busybox", "mount", "/system");
@@ -135,20 +135,20 @@ ui_print("Unmounting system...");
 ui_print(" ");
 run_program("/sbin/busybox", "umount", "/system");
 
-if
-    file_getprop("/tmp/type.prop","TYPE") == "DATA2SD"
-then
-	ui_print("==********************************************==");
-	ui_print("==*RECOVERY LEFT IN DATA2SD MODE UNTIL REBOOT*==");
-	ui_print("==********************************************==");
-endif;
-if
-    file_getprop("/tmp/type.prop","TYPE") == "ROM2SD"
-then
-	ui_print("==*******************************************==");
-	ui_print("==*RECOVERY LEFT IN ROM2SD MODE UNTIL REBOOT*==");
-	ui_print("==*******************************************==");
-endif;
+#if
+#    file_getprop("/tmp/type.prop","TYPE") == "DATA2SD"
+#then
+#	ui_print("==********************************************==");
+#	ui_print("==*RECOVERY LEFT IN DATA2SD MODE UNTIL REBOOT*==");
+#	ui_print("==********************************************==");
+#endif;
+#if
+#    file_getprop("/tmp/type.prop","TYPE") == "ROM2SD"
+#then
+#	ui_print("==*******************************************==");
+#	ui_print("==*RECOVERY LEFT IN ROM2SD MODE UNTIL REBOOT*==");
+#	ui_print("==*******************************************==");
+#endif;
 ui_print(" ");
 ui_print("GAPPS Installation Complete!");
 ui_print(" ");

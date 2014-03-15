@@ -1,7 +1,17 @@
-crombi_kkgapps_20140308
+CROMBi-kk GApps Package
 =======================
+Changelog:
+crombi_kkgapps_20140315
+Updated YouTube to version 5.5.27
+Updated Google Maps to version 7.7.0
+Updated Google Search and Libs to version 3.3.11
 
-CROMBi-X Google Apps Package
+crombi_kkgapps_20140312
+Updated Google Calendarsync adapter to latest version
+Fixed the issue of GApps not flashing if not done directly after ROM
+
+crombi_kkgapps_20140309
+Updated Google Bookmarksync adapter to latest version
 
 Changelog
 crombi_kkgapps_20140308
